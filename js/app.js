@@ -36,6 +36,7 @@ angular.module('devmtnTravel', ['ui.router'])
                 url: '/about',
                 templateUrl: "../views/about.html"
             })
+        
 
         $urlRouterProvider
             .otherwise('/');
